@@ -1,0 +1,6 @@
+void printTillN(int n) {
+    // code here
+    if(n==0) return;
+    printTillN(n-1);
+    printf("%d ",n);
+}
